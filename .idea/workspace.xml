@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bed1782-295b-4529-b5e0-ce21edd298f8" name="Changes" comment="Added JavaFx libs">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/YatzyGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/YatzyGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RaffleCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/RaffleCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/YatzyResultCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/YatzyResultCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +44,56 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/benn-christensen/Yatzy.git&quot;,
-    &quot;accountId&quot;: &quot;72e6f8f1-2ad2-41dc-b9cc-aa352c3736f3&quot;
+    &quot;url&quot;: &quot;https://github.com/asgerdyhr-sudo/Projekt3-Yatzy.git&quot;,
+    &quot;accountId&quot;: &quot;3ce4c547-07f0-4d5d-a1c0-999b00fe4da0&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2XL0x8ZeBWMVIVNYaaMxvHQ18rw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.YatzyApp.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.YatzyResultsCalculatorTests.executor": "Run",
+    "JUnit.YatzyResultsCalculatorTests.fullHouseScoreTests.executor": "Run",
+    "JUnit.YatzyResultsCalculatorTests.onePairScoreTests.executor": "Run",
+    "JUnit.YatzyResultsCalculatorTests.twoPairScoreTests.executor": "Run",
+    "JUnit.YatzyResultsCalculatorTests.upperSectionScoreTests.executor": "Run",
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.YatzyResultsCalculatorTests">
+  <component name="RunManager" selected="Application.YatzyApp">
+    <configuration name="YatzyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.YatzyApp" />
+      <module name="Yatzy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YatzyResultsCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Yatzy" />
       <extension name="coverage">
@@ -74,6 +105,38 @@
       <option name="PACKAGE_NAME" value="YatzyTests" />
       <option name="MAIN_CLASS_NAME" value="YatzyTests.YatzyResultsCalculatorTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YatzyResultsCalculatorTests.fullHouseScoreTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Yatzy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YatzyTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YatzyTests" />
+      <option name="MAIN_CLASS_NAME" value="YatzyTests.YatzyResultsCalculatorTests" />
+      <option name="METHOD_NAME" value="fullHouseScoreTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YatzyResultsCalculatorTests.twoPairScoreTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Yatzy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YatzyTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YatzyTests" />
+      <option name="MAIN_CLASS_NAME" value="YatzyTests.YatzyResultsCalculatorTests" />
+      <option name="METHOD_NAME" value="twoPairScoreTests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YatzyApp" />
         <item itemvalue="JUnit.YatzyResultsCalculatorTests" />
+        <item itemvalue="JUnit.YatzyResultsCalculatorTests.fullHouseScoreTests" />
+        <item itemvalue="JUnit.YatzyResultsCalculatorTests.twoPairScoreTests" />
         <item itemvalue="JUnit.YatzyResultsCalculatorTests.upperSectionScoreTests" />
       </list>
     </recent_temporary>
@@ -126,5 +192,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added JavaFx libs" />
     <option name="LAST_COMMIT_MESSAGE" value="Added JavaFx libs" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="calculator.upperSectionScore(1))" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

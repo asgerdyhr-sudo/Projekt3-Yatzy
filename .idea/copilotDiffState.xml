@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/gui/yatzy.css">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/gui/yatzy.css" />
+              <option name="updatedContent" value="/* General styling for the dice buttons and layout panes */&#10;&#10;.bordered-pane {&#10;    -fx-border-color: #a0a0a0;&#10;    -fx-border-width: 1;&#10;    -fx-border-radius: 5;&#10;    -fx-background-radius: 5;&#10;}&#10;&#10;.die-button {&#10;    -fx-font-size: 24px;&#10;    -fx-font-weight: bold;&#10;    -fx-background-color: white;&#10;    -fx-border-color: #c0c0c0;&#10;    -fx-border-width: 1.5;&#10;    -fx-border-radius: 8;&#10;    -fx-background-radius: 8;&#10;}&#10;&#10;/* Override the default disabled style to keep the dice looking bright */&#10;.die-button:disabled {&#10;    -fx-opacity: 1.0;&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
