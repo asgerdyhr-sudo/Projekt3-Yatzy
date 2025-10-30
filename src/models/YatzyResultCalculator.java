@@ -56,20 +56,29 @@ public class YatzyResultCalculator {
 
     public int threeOfAKindScore() {
         //TODO: implement threeOfAKindScore method.
-        for (int index = dice.length - 1; index > 0; index--) {
-            if (dice[index] == dice[index - 1] && dice[index] == dice[index - 2]) {
-                return dice[index] * 3;
-            }
+        int[] counts = new int[7];
+        for (int die : this.dice) {
+            counts[die]++;
+        }
 
+        for (int index = 1; index < 7; index++) {
+            if (counts[index] >= 3) {
+                return index * 3;
+            }
         }
         return 0;
     }
 
     public int fourOfAKindScore() {
         //TODO: implement fourOfAKindScore method.
-        for (int index = dice.length - 1; index > 0; index--) {
-            if (dice[index] == dice[index - 1] && dice[index] == dice[index - 2] && dice[index] == dice[index - 3]) {
-                return dice[index] * 4;
+        int[] counts = new int[7];
+        for (int die : this.dice) {
+            counts[die]++;
+        }
+
+        for (int index = 1; index < 7; index++) {
+            if (counts[index] >= 4) {
+                return index * 4;
             }
         }
         return 0;
@@ -107,12 +116,12 @@ public class YatzyResultCalculator {
             if (counts[index] == 3) {
                 foundThree = true;
             }
-            if (counts[index] ==  2) {
+            if (counts[index] == 2) {
                 foundTow = true;
             }
         }
 
-        if (foundThree == true && foundTow == true){
+        if (foundThree == true && foundTow == true) {
             return chanceScore();
         }
         return 0;
