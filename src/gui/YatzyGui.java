@@ -62,7 +62,6 @@ public class YatzyGui extends Application {
         //Add dices
         addDices(upperSection);
 
-
         //add checkbox
         addCheckBoxes(upperSection);
 
